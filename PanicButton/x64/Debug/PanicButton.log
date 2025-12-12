@@ -1,0 +1,13 @@
+﻿  PanicButton.cpp
+E:\GitHub\PanicButton\PanicButton.cpp(83,24): error C2440: '=': cannot convert from 'const char *' to 'LPCWSTR'
+      E:\GitHub\PanicButton\PanicButton.cpp(83,24):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+E:\GitHub\PanicButton\PanicButton.cpp(86,17): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char *' to 'LPCWSTR'
+      E:\GitHub\PanicButton\PanicButton.cpp(86,35):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(4443,1):
+      see declaration of 'CreateWindowExW'
+      E:\GitHub\PanicButton\PanicButton.cpp(86,17):
+      while trying to match the argument list '(int, const char *, const char [13], int, int, int, int, int, HWND, int, int, int)'
+  
